@@ -18,6 +18,13 @@
             padding: 10px;
         }
 
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
         td.num{
 text-align: right;
         }
@@ -26,7 +33,22 @@ text-align: right;
             background-color: gray;
             color: white;
         }
-         
+        
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color:gray ;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: white;
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+            text-decoration: underline;
+        }
 
     </style>
 </head>
@@ -43,10 +65,11 @@ text-align: right;
                 TR, TD, TH
     -->
 <table>
+    <caption>População das Unidades Federativas</caption>
     <thead>
         <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
         </tr>
     </thead>
     <tbody>
@@ -162,12 +185,37 @@ text-align: right;
     </tbody>
     <tfoot>
         <tr>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="num"><strong>210.147.125</strong></td>
         </tr>
     </tfoot>
 </table>
 
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quaerat molestiae voluptatem illo adipisci aspernatur culpa delectus velit quasi doloremque quisquam unde eaque soluta iure iusto recusandae, repudiandae dicta distinctio!Lorem
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam dolor facere consectetur mollitia asperiores in praesentium quo necessitatibus aliquid beatae cumque deserunt excepturi porro tempora, doloribus cupiditate molestiae exercitationem!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolor, odio aspernatur inventore impedit obcaecati eligendi reiciendis neque ipsam omnis ab consequatur! Minus inventore exercitationem sint optio maiores modi dolorum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus est repellendus maiores hic vel consequatur deleniti blanditiis et consectetur error. Nam totam debitis at libero animi labore sed reiciendis veritatis!
+</p>
+p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quaerat molestiae voluptatem illo adipisci aspernatur culpa delectus velit quasi doloremque quisquam unde eaque soluta iure iusto recusandae, repudiandae dicta distinctio!Lorem
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam dolor facere consectetur mollitia asperiores in praesentium quo necessitatibus aliquid beatae cumque deserunt excepturi porro tempora, doloribus cupiditate molestiae exercitationem!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolor, odio aspernatur inventore impedit obcaecati eligendi reiciendis neque ipsam omnis ab consequatur! Minus inventore exercitationem sint optio maiores modi dolorum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus est repellendus maiores hic vel consequatur deleniti blanditiis et consectetur error. Nam totam debitis at libero animi labore sed reiciendis veritatis!
+</p>
+p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quaerat molestiae voluptatem illo adipisci aspernatur culpa delectus velit quasi doloremque quisquam unde eaque soluta iure iusto recusandae, repudiandae dicta distinctio!Lorem
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam dolor facere consectetur mollitia asperiores in praesentium quo necessitatibus aliquid beatae cumque deserunt excepturi porro tempora, doloribus cupiditate molestiae exercitationem!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolor, odio aspernatur inventore impedit obcaecati eligendi reiciendis neque ipsam omnis ab consequatur! Minus inventore exercitationem sint optio maiores modi dolorum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus est repellendus maiores hic vel consequatur deleniti blanditiis et consectetur error. Nam totam debitis at libero animi labore sed reiciendis veritatis!
+</p>
+p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quaerat molestiae voluptatem illo adipisci aspernatur culpa delectus velit quasi doloremque quisquam unde eaque soluta iure iusto recusandae, repudiandae dicta distinctio!Lorem
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam dolor facere consectetur mollitia asperiores in praesentium quo necessitatibus aliquid beatae cumque deserunt excepturi porro tempora, doloribus cupiditate molestiae exercitationem!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolor, odio aspernatur inventore impedit obcaecati eligendi reiciendis neque ipsam omnis ab consequatur! Minus inventore exercitationem sint optio maiores modi dolorum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus est repellendus maiores hic vel consequatur deleniti blanditiis et consectetur error. Nam totam debitis at libero animi labore sed reiciendis veritatis!
+</p>
+p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quaerat molestiae voluptatem illo adipisci aspernatur culpa delectus velit quasi doloremque quisquam unde eaque soluta iure iusto recusandae, repudiandae dicta distinctio!Lorem
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam dolor facere consectetur mollitia asperiores in praesentium quo necessitatibus aliquid beatae cumque deserunt excepturi porro tempora, doloribus cupiditate molestiae exercitationem!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolor, odio aspernatur inventore impedit obcaecati eligendi reiciendis neque ipsam omnis ab consequatur! Minus inventore exercitationem sint optio maiores modi dolorum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus est repellendus maiores hic vel consequatur deleniti blanditiis et consectetur error. Nam totam debitis at libero animi labore sed reiciendis veritatis!
+</p>
 
 </body>
 </html>
