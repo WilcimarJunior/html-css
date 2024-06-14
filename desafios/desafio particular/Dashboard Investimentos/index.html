@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard dos Investimentos</title>
+    <style>
+
+body{
+  background-color: rgba(0, 0, 0, 0.863);
+}
+      h1{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        background-color: lightgray;
+        margin-top: 100px;
+        margin-bottom: 50px;
+      }
+        header{
+            height: 600px;
+            width: auto;
+            margin-bottom: 10px;
+            padding-left: 13%;
+            border: 1px dashed black;
+        }
+
+        header h1{
+            text-align: center;
+        }
+        
+div.wind{
+  height: 80vh;
+    width: 80vw;
+    border: 1px dashed black;
+    padding: 10px;
+    margin: auto;
+}
+
+div.cam{
+  width: 80vw;
+margin:auto;
+
+}
+
+         
+    </style>
+</head>
+<body>
+  <h1>Dashboard em tempo real</h1>
+    <header>
+
+        <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Monitore todos os mercados no TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+    {
+    "symbols": [
+
+    [
+        "BMFBOVESPA:CXSE3|1D"
+      ],
+      [
+        "BMFBOVESPA:BBDC3|1D"
+      ],
+      [
+        "BMFBOVESPA:BBAS3|1D"
+      ],
+      [
+        "BMFBOVESPA:KLBN3|1D"
+      ],
+      [
+        "BMFBOVESPA:KNCR11|1D"
+      ],
+      [
+        "BMFBOVESPA:XPCA11|1D"
+      ],
+      [
+        "BMFBOVESPA:XPML11|1D"
+      ],
+      [
+        "BMFBOVESPA:LVBI11|1D"
+      ],
+      [
+        "FX_IDC:USDBRL|1D"
+      ]
+    ],
+    "chartOnly": false,
+    "width": 1000,
+    "height": 500,
+    "locale": "br",
+    "colorTheme": "light",
+    "autosize": false,
+    "showVolume": false,
+    "showMA": false,
+    "hideDateRanges": false,
+    "hideMarketStatus": false,
+    "hideSymbolLogo": false,
+    "scalePosition": "right",
+    "scaleMode": "Normal",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+    "fontSize": "10",
+    "noTimeScale": false,
+    "valuesTracking": "1",
+    "changeMode": "price-and-percent",
+    "chartType": "candlesticks",
+    "maLineColor": "#2962FF",
+    "maLineWidth": 1,
+    "maLength": 9,
+    "lineType": 0,
+    "dateRanges": [
+      "1d|1",
+      "1m|30",
+      "3m|60",
+      "12m|1D",
+      "60m|1W",
+      "all|1M"
+    ],
+    "upColor": "#22ab94",
+    "downColor": "#f7525f",
+    "borderUpColor": "#22ab94",
+    "borderDownColor": "#f7525f",
+    "wickUpColor": "#22ab94",
+    "wickDownColor": "#f7525f"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+        
+    </header>
+    <main>
+        
+       
+        
+<h1>Previsão do Tempo</h1>
+    <div class="wind"><iframe width="100%" height="100%"  src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=°C&metricWind=km/h&zoom=7&overlay=wind&product=ecmwf&level=surface&lat=-21.054&lon=-40.309&detailLat=-20.125&detailLon=-40.306&detail=true&pressure=true" referrerpolicy="no-referrer"  frameborder="0"></iframe></div>
+    
+    <h1>Entrada Laranjeiras</h1>
+      <div class="cam"><a name="windy-webcam-timelapse-player" data-id="1579787816" data-play="day" href="https://windy.com/webcams/1579787816" target="_blank">Serra</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script></div>
+      
+      <h1>Praça Pedágio Serra</h1>
+      <div class="cam"><a name="windy-webcam-timelapse-player" data-id="1579787711" data-play="day" href="https://windy.com/webcams/1579787711" target="_blank">Serra</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script></div>
+    
+
+ 
+
+   
+    </main>    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+
+<style>
+    h1{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;}
+    body{background-color: beige;}
+    p{text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    
+</style>
+
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p> Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+<p>
+    <picture>
+        <source media="(min-width: 1030px)" srcset="imagens/g.png" type="image/png">
+        <source media="(min-width: 730px )" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/p.png" alt="imagem flexivel" >
+    </picture>
+</p>
+
+<h1>Reproduzindo Áudio</h1>
+<p>Vamos aprender a reproduzir audios em HTML5.</p>
+
+<p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="ausio/wav">
+    </audio>
+</p>
+<p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3">clique aqui para baixar o arquivo mp3</a> </p>
+
+</body>
+</html>
